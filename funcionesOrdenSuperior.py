@@ -25,3 +25,8 @@ print(all_multiplied)
 #uso de reduce 
 all_multiplied2 = reduce(lambda a, b: a * b, my_list3 )
 print(all_multiplied2)
+
+#Ejercicio reduce
+my_list4 = [2, 3, 4, 5, 6, 8]
+all_multiplied3 = reduce(lambda a, b: a+b, my_list4)
+print("Suma del vector 3: ",all_multiplied3)
